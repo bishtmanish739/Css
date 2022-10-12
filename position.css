@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent1{
+    height: 1200px;
+   background-color: cadetblue;
+}
+.parent2{
+    height: 1200px;
+    background-color: aqua;
+    position: relative;
+    top: 0px;
+}
+.content{
+    height: 100px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+.content1{
+    /* From its original position 100 px down  */
+    position: relative;
+    top: 100px;
+    background-color: blue;
+}
+.content4{
+    /* it came top of the flow and original position get vecant */
+    position: absolute;
+    top: 10px;
+    background-color: rebeccapurples;
+}
+.content3{
+    /* scroll only parent scrolls */
+    position: sticky;
+    top: 0px;
+    background-color: red;
+}
+.content5{
+    /* Never scroll */
+    position: fixed;
+    top: 0px;
+    background-color: bisque;
+    /* z-index: 2000; */
+}
+.parent2-div{
+    position: relative;
+    top: 100vh;
+    background-color: red;
+}
+/* 5 type of position 
+position => static,relative ,absolute,stiky, fixed
+by default position is static
+
+*/
