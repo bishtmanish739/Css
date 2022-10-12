@@ -6,3 +6,18 @@ div{
     color: white;
     font-weight: bold;
 }
+.percent{
+    height: 50px;
+    width: 80vh;
+    background-color: black;
+}
+.child-percent{
+    width: 50%;
+    background-color: red;
+}
+
+/* Three type of selector 
+1- id selctor  (use # to select id)
+2- class selector (use . to selct class)
+3- element selector (write tag name to select tags ) 
+ */
