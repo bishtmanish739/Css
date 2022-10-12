@@ -7,6 +7,9 @@ div{
     color: white;
     font-weight: bold;
 }
+div .child-percent{
+    color: yellow;
+}
 /* this is class selctor example  */
 .percent{
     height: 50px;
