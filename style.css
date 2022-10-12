@@ -15,6 +15,10 @@ div{
     width: 50%;
     background-color: red;
 }
+#id-selector{
+    color:black;
+
+}
 
 /* Three type of selector 
 1- id selctor  (use # to select id)
