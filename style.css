@@ -1,0 +1,33 @@
+/* THis combinator select all child 
+Descendant Selector
+The descendant selector matches all elements that are descendants of a specified element.*/
+.first-parent div{
+    background-color: blue;
+}
+/* this combinator selcect all child 
+
+Child Selector (>)
+The child selector selects all elements that are the children of a specified element.
+*/
+.first-parent >div{
+    background-color: red;
+}
+
+/* 
+Adjacent Sibling Selector (+) only one sibling after  that
+The adjacent sibling selector is used to select an element that is directly after another specific element.
+Sibling elements must have the same parent element, and "adjacent" means "immediately following". 
+*/
+ .child2 +div{
+    color: white;
+ }
+
+ /* General Sibling Selector (~)
+The general sibling selector selects all elements that are next siblings of a specified element. */
+.child1 ~ div{
+    color: yellow;
+}
+
+.first-parent :first-child{
+    background: aqua;
+}
