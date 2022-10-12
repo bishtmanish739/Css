@@ -25,7 +25,10 @@ div .child-percent{
     color:black;
     background-color: white;
 }
-
+/* class selector having [xyz] attribute */
+.class-with-attribute[class]{
+    color: white;
+}
 /* Three type of selector 
 1- id selctor  (use # to select id)
 2- class selector (use . to select class)
