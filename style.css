@@ -1,11 +1,13 @@
 .heading{
     color: crimson;
 }
+/* This is example of  element selector  */
 div{
     background-color: crimson;
     color: white;
     font-weight: bold;
 }
+/* this is class selctor example  */
 .percent{
     height: 50px;
     width: 80vh;
@@ -22,6 +24,6 @@ div{
 
 /* Three type of selector 
 1- id selctor  (use # to select id)
-2- class selector (use . to selct class)
+2- class selector (use . to select class)
 3- element selector (write tag name to select tags ) 
  */
