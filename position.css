@@ -6,12 +6,7 @@
     height: 1200px;
    background-color: cadetblue;
 }
-.parent2{
-    height: 1200px;
-    background-color: aqua;
-    position: relative;
-    top: 0px;
-}
+
 .content{
     height: 100px;
     background-color: aliceblue;
@@ -42,10 +37,20 @@
     background-color: bisque;
     /* z-index: 2000; */
 }
+.parent2{
+    height: 1200px;
+    background-color: aqua;
+    
+    width: 90%;
+   
+}
 .parent2-div{
-    position: relative;
-    top: 100vh;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 50%;
     background-color: red;
+    width: inherit;
 }
 /* 5 type of position 
 position => static,relative ,absolute,stiky, fixed
