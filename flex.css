@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.flex-container{
+    display: flex;
+    /* flex-direction: column; */
+    /* default no nowrap */
+    /* flex-wrap: nowrap; */
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    /* center in x axis */
+    justify-content: center;
+    /* center in y axis */
+    align-items: center;
+    align-content: center;
+    
+}
+.flexbox{
+    color: white;
+    width: 33vw;
+    height: 30vh;
+    background-color: black;
+    margin: 2px;
+    border: 5px solid aqua;
+}
+.flex-child5{
+    width: 66%;
+}
